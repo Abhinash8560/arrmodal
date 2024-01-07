@@ -93,6 +93,7 @@
     0px 4px 8px 0px rgba(0, 100, 168, 0.08);
   /* height: 35rem; */
   /* border: 1px solid red; */
+  position: relative;
 }
 
 .dropdown-container {
@@ -187,7 +188,7 @@
 .drop-down {
   position: absolute;
   right: 8px;
-  top: 39px;
+  top: 50px;
 }
 
 .webinar--modal-container
@@ -1057,7 +1058,9 @@
     .__webinarmodalflex--card
     .card--gridmodal--recorded
     .__buttonzoomrecorded {
-    left: 130px;
+    /* left: 130px; */
+    width: 31%;
+
   }
 
   .webinar--modal-container
@@ -1096,8 +1099,8 @@
   }
 
   .webinar--modal-container .endflex {
-    top: 0px;
-    right: -3px;
+    top: -23px;
+    right: -9px;
     }
 
   .webinar--modal-container
@@ -1137,6 +1140,11 @@
     padding: 0px 36px;
 
   }
+  .webinar--modal-container .__webinarmodalcard--container .__webinarswitch .__webinardevflexmodal{
+     padding: var(--spacing-gap-8, 1rem) 0rem var(--spacing-gap-8, 0.5rem) 0.5rem;
+    
+  }
+
 }
 
 @media screen and (min-width: 321px) and (max-width: 480px) {
@@ -1145,7 +1153,7 @@
   }
   .webinar--modal-container .__webinarmodalcard--container {
     /* width: 22rem; */
-    position: relative;
+    /* position: relative; */
   }
 
   .webinar--modal-container {
@@ -1419,8 +1427,8 @@
     padding: 0;
   }
   .webinar--modal-container .endflex {
-    top: 2px;
-    right: -3px;
+    top: -20px;
+    right: -35px;
   }
 }
 
@@ -1563,8 +1571,9 @@
     align-items: center;
   }
   .webinar--modal-container .endflex {
-    top: -1px;
-  }
+    top: -18px;
+    right: -34px;
+    }
   .webinar--modal-container
     .__webinarmodalcard--container
     .__webinarswitch
@@ -1579,8 +1588,9 @@
 
 @media screen and (min-width: 1025px) and (max-width: 1600px) {
   .webinar--modal-container .endflex {
-    top: 14px;
-  }
+    top: -34px;
+    right: -28px;
+    }
   .webinar--modal-container
     .__webinarmodalcard--container
     .__webinarswitch

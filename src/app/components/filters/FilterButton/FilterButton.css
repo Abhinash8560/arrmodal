@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&family=Lato:ital,wght@1,100&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.filterbtn-container,
+.filterbtn-container-active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 10px 12px 10px 8px;
+  border-radius: 24px;
+  height: 38px;
+  min-width: 76px;
+  cursor: pointer;
+}
+
+.filterbtn-container{
+    border: 1px solid var(--color-neutral-300);
+    background: var(--color-white);
+}
+
+.filterbtn-container-active{
+    border: 1px solid var(--color-primary-500);
+    box-shadow: 0px 0px 5px 0px var(--color-primary-700);
+    background: var(--color-white);
+}
+
+
+
+.filterbtn-font {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px; 
+  letter-spacing: 0.24px;
+  color: var(--color-neutral-900)
+}
+
+.filterbtn-icon{
+    padding-top: 4px;
+}

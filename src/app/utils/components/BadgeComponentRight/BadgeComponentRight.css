@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&family=Lato:ital,wght@1,100&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.icon-style{
+    padding-top: 4px;
+}
+
+.right-badge-success-primary,
+.right-badge-success-secondary,
+.right-badge-success-tertiary,
+.right-badge-success-text,
+.right-badge-warning-primary,
+.right-badge-warning-secondary,
+.right-badge-warning-tertiary,
+.right-badge-warning-text,
+.right-badge-error-primary,
+.right-badge-error-secondary,
+.right-badge-error-tertiary,
+.right-badge-error-text,
+.right-badge-inactive-primary,
+.right-badge-inactive-secondary,
+.right-badge-inactive-tertiary,
+.right-badge-inactive-text,
+.right-badge-info-primary,
+.right-badge-info-secondary,
+.right-badge-info-tertiary,
+.right-badge-info-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 8px;
+    padding: 2px 6px 2px 8px;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 600; 
+    cursor: pointer;
+}
+
+.right-badge-success-primary{
+    background-color: var(--color-green-600);
+    color: var(--color-white)
+}
+
+.right-badge-success-secondary{
+    background-color: var(--color-green-100);
+    color: var(--color-green-600);
+}
+
+.right-badge-success-tertiary{
+    border: 1px solid var(--color-green-600);
+    background-color: var(--color-white);
+    color: var(--color-green-600)
+}
+
+.right-badge-success-text{
+    color: var(--color-neutral-900)
+}
+
+.right-badge-warning-primary{
+    background-color: var(--color-secondary-600);
+    color: var(--color-white);
+}
+
+.right-badge-warning-secondary{
+    background-color: var(--color-secondary-100);
+    color: var(--color-secondary-600);
+}
+
+.right-badge-warning-tertiary{
+    border: 1px solid var(--color-secondary-600);
+    background-color: var(--color-white);
+    color: var(--color-secondary-600)
+}
+
+.right-badge-warning-text{
+    color: var(--color-neutral-900)
+}
+
+.right-badge-error-primary{
+    background-color: var(--color-red-500);
+    color: var(--color-white);
+}
+
+.right-badge-error-secondary{
+    background-color: var(--color-red-100);
+    color: var(--color-red-700);
+}
+
+.right-badge-error-tertiary{
+    border: 1px solid var(--color-red-700);
+    background-color: var(--color-white);
+    color: var(--color-red-700)
+}
+
+.right-badge-error-text{
+    color: var(--color-neutral-900)
+}
+
+.right-badge-inactive-primary{
+    background-color: var(--color-neutral-300);
+    color: var(--color-white);
+}
+
+.right-badge-inactive-secondary{
+    background-color: var(--color-neutral-50);
+    color: var(--color-neutral-300);
+}
+
+.right-badge-inactive-tertiary{
+    border: 1px solid var(--color-neutral-300);
+    background-color: var(--color-white);
+    color: var(--color-neutral-300)
+}
+
+.right-badge-inactive-text{
+    color: var(--color-neutral-900)
+}
+
+.right-badge-info-primary{
+    background-color: var(--color-primary-700);
+    color: var(--color-white);
+}
+
+.right-badge-info-secondary{
+    background-color: var(--color-primary-100);
+    color: var(--color-primary-700);
+}
+
+.right-badge-info-tertiary{
+    border: 1px solid var(--color-primary-700);
+    background-color: var(--color-white);
+    color: var(--color-primary-700)
+}
+
+.right-badge-info-text{
+    color: var(--color-neutral-900)
+}
